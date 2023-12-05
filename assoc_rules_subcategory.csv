@@ -1,0 +1,20 @@
+,antecedents,consequents,confidence
+0,"frozenset({25, 19})",frozenset({21}),1.0
+1,"frozenset({25, 21})",frozenset({19}),0.8662790697674418
+2,"frozenset({26, 19})",frozenset({21}),0.9540983606557377
+3,"frozenset({26, 21})",frozenset({19}),0.8871951219512194
+4,"frozenset({25, 26})",frozenset({19}),0.9041533546325878
+5,"frozenset({25, 19})",frozenset({26}),0.9496644295302014
+6,"frozenset({26, 19})",frozenset({25}),0.9278688524590165
+7,"frozenset({25, 26})",frozenset({21}),0.9968051118210862
+8,"frozenset({25, 21})",frozenset({26}),0.9069767441860465
+9,"frozenset({26, 21})",frozenset({25}),0.9512195121951218
+10,"frozenset({25, 26, 19})",frozenset({21}),1.0
+11,"frozenset({25, 26, 21})",frozenset({19}),0.9070512820512822
+12,"frozenset({25, 19, 21})",frozenset({26}),0.9496644295302014
+13,"frozenset({26, 19, 21})",frozenset({25}),0.9725085910652922
+14,"frozenset({25, 26})","frozenset({19, 21})",0.9041533546325878
+15,"frozenset({25, 19})","frozenset({26, 21})",0.9496644295302014
+16,"frozenset({25, 21})","frozenset({26, 19})",0.8226744186046512
+17,"frozenset({26, 19})","frozenset({25, 21})",0.9278688524590165
+18,"frozenset({26, 21})","frozenset({25, 19})",0.8628048780487805
