@@ -1,0 +1,436 @@
+,antecedents,consequents,confidence
+0,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 44'})",0.9112903225806451
+1,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44'})","frozenset({'Road-350-W Yellow, 48'})",0.9047619047619047
+2,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 40'})","frozenset({'Road-250 Black, 44'})",0.9115044247787611
+3,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44'})","frozenset({'Road-550-W Yellow, 48'})",0.9047619047619047
+4,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9256198347107437
+5,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44'})","frozenset({'Road-750 Black, 52'})",0.9126984126984127
+6,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42'})","frozenset({'Road-250 Black, 44'})",0.9098360655737704
+7,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9130434782608696
+8,"frozenset({'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9015151515151515
+9,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9173553719008264
+10,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 44'})",0.9322033898305085
+11,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9090909090909091
+12,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 44'})",0.9022556390977444
+13,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9039999999999999
+14,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-250 Black, 44'})",0.9174311926605505
+15,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 44'})",0.9152542372881357
+16,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9173553719008264
+17,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9090909090909091
+18,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40'})","frozenset({'Road-350-W Yellow, 48'})",0.9043478260869566
+19,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40'})","frozenset({'Road-550-W Yellow, 38'})",0.9130434782608696
+20,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40'})","frozenset({'Road-550-W Yellow, 48'})",0.9217391304347827
+21,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40'})","frozenset({'Road-750 Black, 48'})",0.9217391304347827
+22,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9298245614035089
+23,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40'})","frozenset({'Road-750 Black, 52'})",0.9130434782608696
+24,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40'})","frozenset({'Road-750 Black, 58'})",0.9304347826086957
+25,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9090909090909091
+26,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 58'})",0.9090909090909091
+27,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9166666666666666
+28,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9166666666666666
+29,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.912280701754386
+30,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9333333333333332
+31,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 48'})",0.9067796610169493
+32,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9032258064516129
+33,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9035087719298247
+34,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9075630252100841
+35,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9274193548387096
+36,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-250 Black, 48'})",0.9174311926605505
+37,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9298245614035089
+38,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9159663865546219
+39,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9279999999999999
+40,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9035087719298247
+41,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 58'})",0.9473684210526316
+42,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 48'})",0.9152542372881357
+43,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9243697478991597
+44,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42'})","frozenset({'Road-350-W Yellow, 48'})",0.9007633587786259
+45,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 40'})","frozenset({'Road-350-W Yellow, 42'})",0.9026548672566372
+46,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9285714285714285
+47,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 52'})",0.9389312977099238
+48,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 48'})",0.9197080291970804
+49,"frozenset({'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.90625
+50,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9090909090909091
+51,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9124087591240877
+52,"frozenset({'Road-750 Black, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 40'})",0.9044117647058825
+53,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9197080291970804
+54,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 40'})","frozenset({'Road-550-W Yellow, 48'})",0.929203539823009
+55,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.926605504587156
+56,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 40'})","frozenset({'Road-750 Black, 52'})",0.920353982300885
+57,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 40'})","frozenset({'Road-750 Black, 58'})",0.920353982300885
+58,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.923076923076923
+59,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.91156462585034
+60,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.933884297520661
+61,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 48'})",0.9173553719008264
+62,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 40'})",0.940677966101695
+63,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9256198347107437
+64,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 42'})",0.9043478260869566
+65,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9206349206349206
+66,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9
+67,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9098360655737704
+68,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 42'})",0.908256880733945
+69,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9152542372881357
+70,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 58'})",0.901639344262295
+71,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9022556390977444
+72,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9285714285714285
+73,"frozenset({'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9034482758620689
+74,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9044117647058825
+75,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9217391304347827
+76,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9217391304347827
+77,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9020979020979021
+78,"frozenset({'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9279999999999999
+79,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9152542372881357
+80,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9237288135593221
+81,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9237288135593221
+82,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.911764705882353
+83,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9172932330827068
+84,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.926605504587156
+85,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9237288135593221
+86,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9279999999999999
+87,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9279999999999999
+88,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.908256880733945
+89,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 58'})",0.9449541284403671
+90,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9152542372881357
+91,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.940677966101695
+92,"frozenset({'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9224806201550387
+93,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9152542372881357
+94,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 38'})",0.9074074074074074
+95,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 44'})",0.9074074074074074
+96,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9074074074074074
+97,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 58'})",0.9074074074074074
+98,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9259259259259259
+99,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9090909090909091
+100,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9166666666666666
+101,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9
+102,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9351851851851851
+103,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9017857142857143
+104,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 48'})",0.9099099099099099
+105,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-250 Black, 44'})","frozenset({'Road-550-W Yellow, 38'})",0.9
+106,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 44'})",0.9252336448598131
+107,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 48'})",0.9
+108,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-550-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9099099099099099
+109,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9017857142857143
+110,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9252336448598131
+111,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 44'})",0.9166666666666666
+112,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.929203539823009
+113,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9210526315789475
+114,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 44'})",0.9130434782608696
+115,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-250 Black, 44'})","frozenset({'Road-550-W Yellow, 48'})",0.9
+116,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9
+117,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9158878504672897
+118,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.927927927927928
+119,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9035087719298247
+120,"frozenset({'Road-250 Black, 48', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9252336448598131
+121,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 44'})",0.9
+122,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9174311926605505
+123,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 48'})",0.908256880733945
+124,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-350-W Yellow, 40'})",0.9252336448598131
+125,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 52'})",0.9357798165137615
+126,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 48'})",0.9115044247787611
+127,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9035087719298247
+128,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9035087719298247
+129,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9035087719298247
+130,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9196428571428572
+131,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9035087719298247
+132,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.927927927927928
+133,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9043478260869566
+134,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.912280701754386
+135,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9158878504672897
+136,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9115044247787611
+137,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9035087719298247
+138,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 48'})",0.9026548672566372
+139,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9107142857142858
+140,"frozenset({'Road-750 Black, 48', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 40'})",0.9272727272727274
+141,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9115044247787611
+142,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9196428571428572
+143,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9035087719298247
+144,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.927927927927928
+145,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.912280701754386
+146,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9043478260869566
+147,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9345794392523364
+148,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9107142857142858
+149,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9272727272727274
+150,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 48'})",0.9252336448598131
+151,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 40'})",0.9428571428571428
+152,"frozenset({'Road-350-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9252336448598131
+153,"frozenset({'Road-250 Black, 44', 'Road-350-W Yellow, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9115044247787611
+154,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-350-W Yellow, 48'})",0.9158878504672897
+155,"frozenset({'Road-250 Black, 44', 'Road-350-W Yellow, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 52'})",0.9026548672566372
+156,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 44'})",0.9333333333333333
+157,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 58', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 38'})",0.9059829059829061
+158,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9099099099099099
+159,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9099099099099099
+160,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 52'})",0.9009009009009009
+161,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9259259259259259
+162,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 44'})",0.9259259259259259
+163,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 44'})",0.9
+164,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9158878504672897
+165,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 52', 'Road-350-W Yellow, 42'})","frozenset({'Road-550-W Yellow, 48'})",0.9075630252100841
+166,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 42'})","frozenset({'Road-750 Black, 52'})",0.9345794392523364
+167,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9090909090909091
+168,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9043478260869566
+169,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9067796610169493
+170,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9181818181818182
+171,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9099099099099099
+172,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9099099099099099
+173,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 44'})",0.9017857142857143
+174,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9099099099099099
+175,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9099099099099099
+176,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.927927927927928
+177,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9090909090909091
+178,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9009009009009009
+179,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9181818181818182
+180,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-250 Black, 44'})",0.926605504587156
+181,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9181818181818182
+182,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9099099099099099
+183,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 44'})",0.926605504587156
+184,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9272727272727274
+185,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.918918918918919
+186,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.901639344262295
+187,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.901639344262295
+188,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9083333333333332
+189,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9159663865546219
+190,"frozenset({'Road-750 Black, 48', 'Road-250 Black, 44', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9090909090909091
+191,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9090909090909091
+192,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9130434782608696
+193,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 44'})",0.9130434782608696
+194,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9259259259259259
+195,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 44'})",0.9174311926605505
+196,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.920353982300885
+197,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.936936936936937
+198,"frozenset({'Road-550-W Yellow, 40', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9074074074074074
+199,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 44'})",0.9074074074074074
+200,"frozenset({'Road-250 Black, 44', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9009009009009009
+201,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9090909090909091
+202,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9428571428571428
+203,"frozenset({'Road-250 Black, 44', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9217391304347827
+204,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9158878504672897
+205,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9423076923076923
+206,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9333333333333333
+207,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9158878504672897
+208,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 48'})",0.9074074074074074
+209,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9339622641509434
+210,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9339622641509434
+211,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48', 'Road-550-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9339622641509434
+212,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9433962264150944
+213,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9345794392523364
+214,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 58'})",0.9528301886792452
+215,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 48'})",0.9439252336448598
+216,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 40'})",0.9351851851851851
+217,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 48'})",0.9099099099099099
+218,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9158878504672897
+219,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 40', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9333333333333333
+220,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9158878504672897
+221,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9
+222,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9252336448598131
+223,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9074074074074074
+224,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9259259259259259
+225,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9090909090909091
+226,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9158878504672897
+227,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9181818181818182
+228,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9181818181818182
+229,"frozenset({'Road-250 Black, 48', 'Road-350-W Yellow, 42', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9158878504672897
+230,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 48'})",0.9017857142857143
+231,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9181818181818182
+232,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9181818181818182
+233,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9363636363636364
+234,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9196428571428572
+235,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 48'})",0.9196428571428572
+236,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9454545454545455
+237,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9285714285714286
+238,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9166666666666666
+239,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9519230769230769
+240,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-250 Black, 48'})",0.9166666666666666
+241,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 52', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9333333333333333
+242,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9158878504672897
+243,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9345794392523364
+244,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9090909090909091
+245,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 48'})",0.9174311926605505
+246,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9166666666666666
+247,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.908256880733945
+248,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9464285714285715
+249,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9217391304347827
+250,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9137931034482759
+251,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9351851851851851
+252,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9181818181818182
+253,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9363636363636364
+254,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9363636363636364
+255,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 58'})",0.9622641509433962
+256,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9444444444444445
+257,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-250 Black, 48'})",0.918918918918919
+258,"frozenset({'Road-250 Black, 48', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9357798165137615
+259,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9272727272727274
+260,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9074074074074074
+261,"frozenset({'Road-250 Black, 48', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9514563106796116
+262,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-250 Black, 48'})",0.9074074074074074
+263,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 48'})",0.9210526315789475
+264,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9051724137931035
+265,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9230769230769231
+266,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9152542372881357
+267,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9310344827586208
+268,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9024390243902438
+269,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.940677966101695
+270,"frozenset({'Road-350-W Yellow, 42', 'Road-350-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9024390243902438
+271,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9158878504672897
+272,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-550-W Yellow, 48'})",0.9298245614035089
+273,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9137931034482759
+274,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 48'})",0.9035087719298247
+275,"frozenset({'Road-750 Black, 48', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 40'})",0.9363636363636364
+276,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9385964912280702
+277,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9051724137931035
+278,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.929203539823009
+279,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9396551724137931
+280,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9345794392523364
+281,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9401709401709403
+282,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9401709401709403
+283,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 48'})",0.9252336448598131
+284,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 40'})",0.9339622641509434
+285,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9439252336448598
+286,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9017857142857143
+287,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 48'})",0.9199999999999999
+288,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9126984126984127
+289,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9268292682926829
+290,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9047619047619047
+291,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9268292682926829
+292,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9206349206349206
+293,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9206349206349206
+294,"frozenset({'Road-350-W Yellow, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9062499999999999
+295,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9259259259259259
+296,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9090909090909091
+297,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9015151515151515
+298,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9015151515151515
+299,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9224806201550387
+300,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9090909090909092
+301,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9115044247787611
+302,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9363636363636364
+303,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.903846153846154
+304,"frozenset({'Road-350-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9096774193548388
+305,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.918918918918919
+306,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9272727272727274
+307,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9444444444444445
+308,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9107142857142858
+309,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9272727272727274
+310,"frozenset({'Road-350-W Yellow, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.918918918918919
+311,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9349593495934958
+312,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 48'})",0.9199999999999999
+313,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-550-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9274193548387096
+314,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9199999999999999
+315,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9126984126984127
+316,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9444444444444445
+317,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9026548672566372
+318,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9186991869918698
+319,"frozenset({'Road-750 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.933884297520661
+320,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 48'})",0.9259259259259259
+321,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9009009009009009
+322,"frozenset({'Road-750 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 40'})",0.9523809523809523
+323,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9259259259259259
+324,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9428571428571428
+325,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 40', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9519230769230769
+326,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9015151515151515
+327,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9370078740157479
+328,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.945945945945946
+329,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 48'})",0.929203539823009
+330,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 40'})",0.945945945945946
+331,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.929203539823009
+332,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9375000000000001
+333,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.927927927927928
+334,"frozenset({'Road-350-W Yellow, 40', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 48'})",0.9196428571428572
+335,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9537037037037037
+336,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9159663865546219
+337,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9008264462809917
+338,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9272727272727274
+339,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9075630252100841
+340,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9115044247787611
+341,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.927927927927928
+342,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9145299145299146
+343,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9224137931034484
+344,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9245283018867925
+345,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 42'})",0.9074074074074074
+346,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9099099099099099
+347,"frozenset({'Road-350-W Yellow, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9099099099099099
+348,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9363636363636364
+349,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9115044247787611
+350,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9105691056910569
+351,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9152542372881357
+352,"frozenset({'Road-750 Black, 48', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9363636363636364
+353,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9043478260869566
+354,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9166666666666666
+355,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.908256880733945
+356,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.918918918918919
+357,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9272727272727274
+358,"frozenset({'Road-550-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9074074074074074
+359,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9074074074074074
+360,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.920353982300885
+361,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9339622641509434
+362,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9224137931034484
+363,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9339622641509434
+364,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 42'})",0.9166666666666666
+365,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-550-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9193548387096774
+366,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9268292682926829
+367,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9375000000000001
+368,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9051724137931035
+369,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9173553719008264
+370,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9024390243902438
+371,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9333333333333333
+372,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9074074074074074
+373,"frozenset({'Road-350-W Yellow, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9009009009009009
+374,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 58'})",0.9433962264150944
+375,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9433962264150944
+376,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-350-W Yellow, 48'})",0.9099099099099099
+377,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9351851851851851
+378,"frozenset({'Road-350-W Yellow, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.927927927927928
+379,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9074074074074074
+380,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9074074074074074
+381,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 58'})",0.9449541284403671
+382,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9449541284403671
+383,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9032258064516129
+384,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9256198347107437
+385,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9523809523809523
+386,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 38'})",0.9009009009009009
+387,"frozenset({'Road-550-W Yellow, 38', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9304347826086957
+388,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 58'})",0.9702970297029704
+389,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-550-W Yellow, 48'})",0.9514563106796116
+390,"frozenset({'Road-550-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 58'})",0.9357798165137615
+391,"frozenset({'Road-550-W Yellow, 40', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9444444444444445
+392,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 58'})","frozenset({'Road-750 Black, 52'})",0.9099099099099099
+393,"frozenset({'Road-750 Black, 48', 'Road-750 Black, 58', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9351851851851851
+394,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9074074074074074
+395,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-250 Black, 44', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9158878504672897
+396,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48', 'Road-250 Black, 44'})","frozenset({'Road-750 Black, 52'})",0.9074074074074074
+397,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 38'})",0.9333333333333333
+398,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 48'})",0.9245283018867925
+399,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9333333333333333
+400,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9252336448598131
+401,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9428571428571428
+402,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9166666666666666
+403,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9333333333333333
+404,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9074074074074074
+405,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9181818181818182
+406,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9351851851851851
+407,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-350-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 48'})",0.9099099099099099
+408,"frozenset({'Road-350-W Yellow, 42', 'Road-750 Black, 48', 'Road-350-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9439252336448598
+409,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9174311926605505
+410,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9345794392523364
+411,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9433962264150944
+412,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-750 Black, 48'})","frozenset({'Road-750 Black, 52'})",0.9333333333333333
+413,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9423076923076923
+414,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-350-W Yellow, 48'})",0.9217391304347827
+415,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-550-W Yellow, 48'})",0.9298245614035089
+416,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 48'})",0.9217391304347827
+417,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48'})","frozenset({'Road-350-W Yellow, 40'})",0.9298245614035089
+418,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9130434782608696
+419,"frozenset({'Road-350-W Yellow, 40', 'Road-350-W Yellow, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9051724137931035
+420,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.9130434782608696
+421,"frozenset({'Road-350-W Yellow, 48', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9130434782608696
+422,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.920353982300885
+423,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.912280701754386
+424,"frozenset({'Road-350-W Yellow, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.936936936936937
+425,"frozenset({'Road-350-W Yellow, 48', 'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9385964912280702
+426,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.929203539823009
+427,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-550-W Yellow, 38'})","frozenset({'Road-750 Black, 52'})",0.9130434782608696
+428,"frozenset({'Road-350-W Yellow, 40', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-750 Black, 48'})",0.9130434782608696
+429,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 40'})",0.9375000000000001
+430,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 38'})",0.9166666666666666
+431,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-350-W Yellow, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.9166666666666666
+432,"frozenset({'Road-350-W Yellow, 42', 'Road-550-W Yellow, 38', 'Road-550-W Yellow, 48', 'Road-350-W Yellow, 48'})","frozenset({'Road-750 Black, 52'})",0.908256880733945
+433,"frozenset({'Road-550-W Yellow, 48', 'Road-750 Black, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 52'})","frozenset({'Road-350-W Yellow, 48'})",0.9107142857142858
+434,"frozenset({'Road-350-W Yellow, 48', 'Road-550-W Yellow, 38', 'Road-750 Black, 48', 'Road-750 Black, 52'})","frozenset({'Road-550-W Yellow, 48'})",0.918918918918919

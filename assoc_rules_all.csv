@@ -1,0 +1,33 @@
+,antecedents,consequents,confidence
+0,frozenset({864}),frozenset({884}),0.6410748560460653
+1,frozenset({871}),frozenset({870}),0.8197923029932804
+2,frozenset({872}),frozenset({870}),0.8606856309263312
+3,frozenset({929}),frozenset({921}),0.6571719226856562
+4,frozenset({930}),frozenset({921}),0.677475898334794
+5,frozenset({932}),frozenset({922}),0.6530920060331825
+6,frozenset({933}),frozenset({922}),0.6806853582554516
+7,frozenset({934}),frozenset({923}),0.8742937853107344
+8,"frozenset({864, 876})",frozenset({712}),0.9070512820512822
+9,"frozenset({864, 712})",frozenset({876}),0.9528619528619529
+10,"frozenset({712, 876})",frozenset({864}),0.9278688524590165
+11,"frozenset({864, 884})",frozenset({712}),0.8772455089820359
+12,"frozenset({864, 712})",frozenset({884}),0.9865319865319865
+13,"frozenset({712, 884})",frozenset({864}),0.8184357541899442
+14,"frozenset({712, 884})",frozenset({870}),0.7793296089385475
+15,"frozenset({884, 870})",frozenset({712}),0.7771587743732591
+16,"frozenset({712, 876})",frozenset({884}),0.9180327868852459
+17,"frozenset({712, 884})",frozenset({876}),0.7821229050279329
+18,"frozenset({884, 876})",frozenset({712}),0.9032258064516128
+19,"frozenset({864, 876})",frozenset({884}),0.983974358974359
+20,"frozenset({864, 884})",frozenset({876}),0.9191616766467066
+21,"frozenset({884, 876})",frozenset({864}),0.9903225806451612
+22,"frozenset({864, 884, 876})",frozenset({712}),0.9087947882736157
+23,"frozenset({864, 876, 712})",frozenset({884}),0.9858657243816255
+24,"frozenset({864, 884, 712})",frozenset({876}),0.9522184300341298
+25,"frozenset({884, 876, 712})",frozenset({864}),0.9964285714285714
+26,"frozenset({864, 876})","frozenset({712, 884})",0.8942307692307693
+27,"frozenset({864, 884})","frozenset({712, 876})",0.8353293413173652
+28,"frozenset({864, 712})","frozenset({884, 876})",0.9393939393939393
+29,"frozenset({884, 876})","frozenset({864, 712})",0.8999999999999999
+30,"frozenset({712, 876})","frozenset({864, 884})",0.9147540983606558
+31,"frozenset({712, 884})","frozenset({864, 876})",0.7793296089385475
