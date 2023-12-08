@@ -1,9 +1,9 @@
 import { ShoppingCartIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
 import React from "react";
-import { urlFor } from "../sanity";
+// import { urlFor } from "../sanity";
 import { useDispatch } from "react-redux";
-import { addToBasket } from "../redux/basketSlice";
+import { addToBasket } from "@/redux/basketSlice";
 import toast from "react-hot-toast";
 
 interface Props {
@@ -16,24 +16,24 @@ function Product({ product }: Props) {
     const addItemToBasket = () => {
         dispatch(addToBasket(product));
 
-        toast.success(`${product.title} added to basket`, {
+        toast.success(`${product.name} added to basket`, {
             position: "bottom-center",
         });
     };
 
     return (
-        <div className="flex h-fit w-[320px] select-none flex-col space-y-3 rounded-xl bg-[#35383C] p-8 md:h-[500px] md:w-[400px] md:p-10">
-            <div className="relative h-64 w-full md:h-72">
+        <div className="flex h-fit w-[20px] select-none flex-col space-y-3 rounded-xl bg-[#35383C] p-8 md:h-[240px] md:w-[240px] md:p-10">
+            {/* <div className="relative h-64 w-full md:h-72">
                 <Image
-                    src={urlFor(product.image[0]).url()}
+                    src={image}
                     layout="fill"
                     objectFit="contain"
                 />
-            </div>
+            </div> */}
 
             <div className="flex flex-1 items-center justify-between space-x-3">
-                <div className="space-y-2 text-xl text-white md:text-2xl">
-                    <p>{product.title}</p>
+                <div className="space-y-2 text-m text-white md:text-m">
+                    <p>{product.name}</p>
                     <p>{product.price}</p>
                 </div>
 

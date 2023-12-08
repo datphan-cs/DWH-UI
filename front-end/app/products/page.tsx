@@ -1,21 +1,24 @@
 "use client";
 import { useEffect, useState } from 'react';
-
+import Product from '../components/Product';
+import Header from '../components/Header';
 export default function App() {
-    const [data, setData] = useState("");
-    const getData = async () => {
-        const resp = await fetch('https://api.sampleapis.com/beers/ale');
-        const json = await resp.json();
-        setData(json);
-    }
+    const [data, setData] = useState([]);
 
     useEffect(() => {
-        getData();
+        fetch('https://api.sampleapis.com/beers/ale')
+            .then((response) => response.json())
+            .then((data) => setData(data));
     }, []);
 
     return (
-        <pre>
-            {JSON.stringify(data, null, 2)}
-        </pre>
+        <div>
+            <Header />
+            <div className='grid grid-cols-4 gap-4 mx-auto max-w-fit pt-10 pb-24 sm:px-4'>
+                {data.map((item) => (
+                    <Product key={item.id} product={item} />
+                ))}
+            </div>
+        </div>
     )
 }

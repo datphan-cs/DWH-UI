@@ -22,7 +22,7 @@ export const basketSlice = createSlice({
             action: PayloadAction<{ id: string }>
         ) => {
             const index = state.items.findIndex(
-                (item: Product) => item._id === action.payload.id
+                (item: Product) => item.id === action.payload.id
             );
 
             let newBasket = [...state.items];
@@ -46,11 +46,11 @@ export const { addToBasket, removeFromBasket } = basketSlice.actions;
 // Selectors -> retrieving items in state to use in different components
 export const selectBasketItems = (state: RootState) => state.basket.items;
 export const selectBasketItemsWithId = (state: RootState, id: string) => {
-    state.basket.items.filter((item: Product) => item._id === id);
+    state.basket.items.filter((item: Product) => item.id === id);
 };
 export const selectBasketTotal = (state: RootState) =>
     state.basket.items.reduce(
-        (total: number, item: Product) => (total += item.price),
+        (total: number, item: Product) => (total += Number((item.price).substring(1))),
         0
     );
 export default basketSlice.reducer;
