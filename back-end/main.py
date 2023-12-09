@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from fastapi.middleware.cors import CORSMiddleware
 import csv
 
 # import matplotlib.pyplot as plt
@@ -26,7 +26,14 @@ class Subcategory(BaseModel):
     subcategory: list[str]
 
 
-app = FastAPI()
+app = FastAPI(docs_url="/api/docs", openapi_url="/api/openapi.json")
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 
 
 def extract_conf(json_data):
@@ -114,7 +121,7 @@ async def root():
     return "Hello World !"
 
 
-@app.get("/items")
+@app.get("/api/items")
 async def get_all_items():
     return products
 

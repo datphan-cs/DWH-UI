@@ -33,8 +33,8 @@ function Product({ product }: Props) {
 
             <div className="flex flex-1 items-center justify-between space-x-3">
                 <div className="space-y-2 text-m text-white md:text-m">
-                    <p>{product.name}</p>
-                    <p>{product.price}</p>
+                    <p>{product.productName}</p>
+                    <p>${product.price}</p>
                 </div>
 
                 <div

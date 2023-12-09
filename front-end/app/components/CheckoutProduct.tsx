@@ -17,7 +17,7 @@ function CheckoutProduct({ id, items }: Props) {
     const removeItemFromBasket = () => {
         dispatch(removeFromBasket({ id }));
 
-        toast.error(`${items[0].name} removed from basket`, {
+        toast.error(`${items[0].productName} removed from basket`, {
             position: "bottom-center",
         });
     };
@@ -26,7 +26,7 @@ function CheckoutProduct({ id, items }: Props) {
         <div className="flex flex-col gap-x-4 border-b border-gray-300 pt-3 pb-3 lg:flex-row items-center">
             <div className="flex-1 space-y-8">
                 <div className="flex flex-col gap-x-16 text-xl lg:flex-row lg:text-2xl">
-                    <h4 className="font-semibold lg:w-80">{items[0].name}</h4>
+                    <h4 className="font-semibold lg:w-80">{items[0].productName}</h4>
                     <p className="flex items-center gap-x-1 font-semibold">
                         {items.length}
                     </p>
@@ -39,7 +39,7 @@ function CheckoutProduct({ id, items }: Props) {
             </div>
             <div className="flex flex-col items-end space-y-4">
                 <h4 className="text-xl font-semibold lg:text-2xl">
-                    ${Number((items[0].price).substring(1)) * items.length}
+                    ${Number(items[0].price) * items.length}
                 </h4>
                 <button
                     onClick={removeItemFromBasket}

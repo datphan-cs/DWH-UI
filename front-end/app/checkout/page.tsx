@@ -22,7 +22,7 @@ function Checkout() {
 
     useEffect(() => {
         const groupedItems = items.reduce((results, item) => {
-            (results[item.id] = results[item.id] || []).push(item);
+            (results[item.productId] = results[item.productId] || []).push(item);
             return results;
         }, {} as { [key: string]: Product[] });
 
@@ -88,7 +88,7 @@ function Checkout() {
                                             <span>Pay Monthly</span>
                                             <span>with Visa Card</span>
                                             <span>
-                                                $283.16/mo. at 0% APR<sup className="-top-1">◊</sup>
+                                                {(basketTotal / 3).toFixed(2)}/mo. at 0% APR
                                             </span>
                                         </h4>
                                         <Button title="Check Out with Visa Card Monthly Installments" />
