@@ -97,6 +97,7 @@ def productIdToproductName(productIds):
             break
     return productNames
 
+
 def productIdToAttributes(productId, attribute):
     for product in products:
         if product["productId"] != productId:
@@ -127,7 +128,7 @@ async def root():
     return "Hello World !"
 
 
-@app.get("/api/items")
+@app.get("/items")
 async def get_all_items():
     return products
 
@@ -170,7 +171,6 @@ async def api2(itemList: ItemList):
     assoc_rules = []
 
     for row in assoc_rules_all:
-
         # Check if item in cart exists in antecedents
         if len(set(row[1] + itemList.itemList)) == len(row[1]) + len(itemList.itemList):
             continue
@@ -183,9 +183,8 @@ async def api2(itemList: ItemList):
         assoc_rules.sort(key=extract_conf, reverse=True)
     # Otherwise, do nothing
     if len(assoc_rules) > itemList.pageBy:
-        assoc_rules = assoc_rules[:itemList.pageBy]
+        assoc_rules = assoc_rules[: itemList.pageBy]
 
-    
     for rule in assoc_rules:
         rule["productName"] = productIdToAttributes(rule["productId"], "productName")
         rule["price"] = productIdToAttributes(rule["productId"], "price")

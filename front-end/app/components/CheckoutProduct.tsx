@@ -1,7 +1,5 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
 import Image from "next/image";
-// import { urlFor } from "../sanity";
-import CurrencyFormat from 'react-currency-format';
 import { removeFromBasket } from "../../redux/basketSlice";
 import { useDispatch } from "react-redux";
 import toast from "react-hot-toast";
@@ -15,12 +13,13 @@ function CheckoutProduct({ id, items }: Props) {
     const dispatch = useDispatch();
 
     const removeItemFromBasket = () => {
-        dispatch(removeFromBasket({ id }));
+        dispatch(removeFromBasket(id));
 
         toast.error(`${items[0].productName} removed from basket`, {
             position: "bottom-center",
         });
     };
+
 
     return (
         <div className="flex flex-col gap-x-4 border-b border-gray-300 pt-3 pb-3 lg:flex-row items-center">

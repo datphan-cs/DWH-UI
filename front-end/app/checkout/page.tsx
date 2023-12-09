@@ -8,7 +8,6 @@ import { useSelector } from "react-redux";
 import Button from "../components/Button";
 import { selectBasketItems, selectBasketTotal } from "../../redux/basketSlice";
 import CheckoutProduct from "../components/CheckoutProduct";
-import { fetchPostJSON } from "../../utils/api-helpers"
 import Product from "../components/Product";
 
 function Checkout() {
@@ -29,12 +28,26 @@ function Checkout() {
         setGroupedItemsInBasket(groupedItems);
     }, [items]);
 
+    const [data, setData] = useState([]);
+
+    useEffect(() => {
+        fetch('http://localhost:8000/items/recommendation', {
+            method: "POST", // *GET, POST, PUT, DELETE, etc.
+            headers: {
+                "Content-Type": "application/json",
+                // 'Content-Type': 'application/x-www-form-urlencoded',
+            },
+            body: JSON.stringify({
+                "itemList": items.map(item => item.productId),
+                "pageBy": 10
+            }), // body data type must match "Content-Type" header
+        })
+            .then((response) => response.json())
+            .then((data) => setData(data));
+    }, []);
+
     return (
         <div className="min-h-screen overflow-hidden bg-[#E7ECEE]">
-            <Head>
-                <title>Bag - Apple</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
             <Header />
             <main className="mx-auto max-w-5xl pb-24">
                 <div className="px-5">
@@ -54,7 +67,7 @@ function Checkout() {
                 {items.length > 0 && (
                     <div className="mx-5 md:mx-8">
                         {Object.entries(groupedItemsInBasket).map(([key, items]) => (
-                            <CheckoutProduct key={key} items={items} id={key} />
+                            <CheckoutProduct key={key} items={items} id={items[0]} />
                         ))}
 
                         <div className="my-12 mt-6 ml-auto">
@@ -88,7 +101,7 @@ function Checkout() {
                                             <span>Pay Monthly</span>
                                             <span>with Visa Card</span>
                                             <span>
-                                                {(basketTotal / 3).toFixed(2)}/mo. at 0% APR
+                                                ${(basketTotal / 3).toFixed(2)}/mo. at 0% APR
                                             </span>
                                         </h4>
                                         <Button title="Check Out with Visa Card Monthly Installments" />
@@ -116,8 +129,8 @@ function Checkout() {
                         <div>
                             Recommended for you
                             <div className='grid grid-cols-4 gap-20 max-w-fit pt-10 pb-24 sm:px-4'>
-                                {items.map((item) => (
-                                    <Product key={item.id} product={item} />
+                                {data.map((item) => (
+                                    <Product key={item.productId} product={item} />
                                 ))}
                             </div>
                         </div>

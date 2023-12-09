@@ -6,8 +6,7 @@ export default function App() {
     const [data, setData] = useState([]);
 
     useEffect(() => {
-        // fetch('https://api.sampleapis.com/beers/ale')
-        fetch('http://192.168.35.101:8000/api/items')
+        fetch('http://localhost:8000/items')
             .then((response) => response.json())
             .then((data) => setData(data));
     }, []);
