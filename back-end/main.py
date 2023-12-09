@@ -11,19 +11,19 @@ from fastapi.responses import HTMLResponse
 
 
 class ItemList(BaseModel):
-    itemList: list[str]
+    itemList: list[int]
     sort: Optional[int] = 1
     pageBy: Optional[int] = 10
 
 
 class SubcategoryList(BaseModel):
-    subcategoryList: list[str]
+    subcategoryList: list[int]
     sort: Optional[int] = 1
     pageBy: Optional[int] = 30
 
 
 class Subcategory(BaseModel):
-    subcategory: list[str]
+    subcategory: list[int]
 
 
 app = FastAPI(docs_url="/api/docs", openapi_url="/api/openapi.json")
@@ -97,6 +97,12 @@ def productIdToproductName(productIds):
             break
     return productNames
 
+def productIdToAttributes(productId, attribute):
+    for product in products:
+        if product["productId"] != productId:
+            continue
+        return product[attribute]
+
 
 def subcategoryIdTosubcategoryName(subcategoryIds):
     subcategoryNames = []
@@ -164,26 +170,27 @@ async def api2(itemList: ItemList):
     assoc_rules = []
 
     for row in assoc_rules_all:
-        # frequent_itemset = row[1] + row[2]
-        assoc_rule = {"Recommended": row[2], "Confidence": row[3]}
+
         # Check if item in cart exists in antecedents
-        if len(set(row[1] + itemList.itemList)) != len(row[1]) + len(itemList.itemList):
-            assoc_rules.append(assoc_rule)
+        if len(set(row[1] + itemList.itemList)) == len(row[1]) + len(itemList.itemList):
+            continue
+
+        for item in row[2]:
+            assoc_rules.append({"productId": item, "Confidence": row[3]})
 
     # Descending
     if itemList.sort == 1:
         assoc_rules.sort(key=extract_conf, reverse=True)
     # Otherwise, do nothing
-
-    filtered_assoc_rules = [rule["Recommended"] for rule in assoc_rules]
-
     if len(assoc_rules) > itemList.pageBy:
-        filtered_assoc_rules = filtered_assoc_rules[: itemList.pageBy]
+        assoc_rules = assoc_rules[:itemList.pageBy]
 
-    for rule in filtered_assoc_rules:
-        rule["Itemset"] = productIdToproductName(rule["Itemset IDs"])
+    
+    for rule in assoc_rules:
+        rule["productName"] = productIdToAttributes(rule["productId"], "productName")
+        rule["price"] = productIdToAttributes(rule["productId"], "price")
 
-    return {"items": filtered_assoc_rules}
+    return assoc_rules
 
 
 @app.get("/test_html")
