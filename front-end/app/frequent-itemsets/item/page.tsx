@@ -6,7 +6,7 @@ import Button from "@/app/components/Button";
 import { selectBasketItems, selectBasketTotal } from "@/app/../redux/basketSlice";
 import CheckoutProduct from "@/app/components/CheckoutProduct";
 import React from "react";
-import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Pagination, getKeyValue } from "@nextui-org/react";
+import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Pagination, getKeyValue, Chip, Tooltip, } from "@nextui-org/react";
 
 function FrequentItemsets() {
     const columns = [
@@ -43,7 +43,7 @@ function FrequentItemsets() {
                 // 'Content-Type': 'application/x-www-form-urlencoded',
             },
             body: JSON.stringify({
-                "itemList": items.length > 0 ? (Object.entries(groupedItemsInBasket).map(item => item[1][0].productId)) : [],
+                "itemList": items.length > 0 ? (items.map(item => item.productId)) : [],
                 "pageBy": 20
             }), // body data type must match "Content-Type" header
         })
@@ -82,7 +82,28 @@ function FrequentItemsets() {
         [],
     );
 
-    console.log(data)
+    const renderCell = React.useCallback((item, columnKey) => {
+        const cellValue = item[columnKey];
+
+        switch (columnKey) {
+            case "Itemset":
+                return (
+                    <div>
+                        {cellValue.map((item) => (<Chip className="capitalize" size="sm" variant="flat">
+                            {item}
+                        </Chip>))}
+                    </div>
+                );
+            case "Confidence":
+                return (
+                    <div className="flex flex-col">
+                        {cellValue}
+                    </div>
+                );
+            default:
+                return cellValue;
+        }
+    }, []);
 
     return (
         <div className="min-h-screen overflow-hidden">
@@ -128,7 +149,7 @@ function FrequentItemsets() {
                         <TableBody items={items_1}>
                             {(item) => (
                                 <TableRow key={item.Confidence}>
-                                    {(columnKey) => <TableCell>{getKeyValue(item, columnKey)}</TableCell>}
+                                    {(columnKey) => <TableCell>{renderCell(item, columnKey)}</TableCell>}
                                 </TableRow>
                             )}
                         </TableBody>
