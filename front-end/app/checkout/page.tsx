@@ -85,7 +85,7 @@ function Checkout() {
                                 <div className="flex justify-between pt-4 text-xl font-semibold">
                                     <h4>Total</h4>
                                     <h4>
-                                        ${basketTotal.toFixed(2)}
+                                        ${basketTotal.toFixed(4)}
                                     </h4>
                                 </div>
                             </div>
@@ -93,9 +93,12 @@ function Checkout() {
                         <div>
                             Recommended for you
                             <div className='grid grid-cols-4 gap-20 max-w-fit pt-10 pb-24 sm:px-4'>
-                                {data.map((item) => (
+                                {data.slice(0, 4).map((item) => (
                                     <Product key={item.productId} product={item} />
                                 ))}
+                                {/* {data.map((item) => (
+                                    <Product key={item.productId} product={item} />
+                                ))} */}
                             </div>
                         </div>
                     </div>
