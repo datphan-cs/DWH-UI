@@ -2,7 +2,7 @@ FROM node:20.10-alpine3.17 AS BUILD_IMAGE
 WORKDIR /front-end
 COPY package*.json ./
 
-RUN npm i --force
+RUN npm install
 COPY . .
 RUN npm run build
 
