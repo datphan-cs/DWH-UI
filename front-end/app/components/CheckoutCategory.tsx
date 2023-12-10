@@ -1,46 +1,41 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
-import { removeFromBasket } from "../../redux/basketSlice";
+import { removeFromCategoryBasket } from "../../redux/categorySlice";
 import { useDispatch } from "react-redux";
 import toast from "react-hot-toast";
 
 interface Props {
-    items: Product[];
+    categories: Category[];
     id: string;
 }
 
-function CheckoutProduct({ id, items }: Props) {
+function CheckoutCategory({ id, categories }: Props) {
     const dispatch = useDispatch();
 
-    const removeItemFromBasket = () => {
-        dispatch(removeFromBasket(id));
+    const removeItemFromCategoryBasket = () => {
+        dispatch(removeFromCategoryBasket(id));
 
-        toast.error(`${items[0].productName} removed from basket`, {
+        toast.error(`${categories[0].subcategoryName} removed from basket`, {
             position: "bottom-center",
         });
     };
 
-    console.log(items)
+    console.log(categories)
+
     return (
         <div className="flex flex-col gap-x-4 border-b border-gray-300 pt-3 pb-3 lg:flex-row items-center">
             <div className="flex-1 space-y-8">
                 <div className="flex flex-col gap-x-16 text-xl lg:flex-row lg:text-2xl">
-                    <h4 className="font-semibold lg:w-80">{items[0].productName}</h4>
-                    <p className="flex items-center gap-x-1 font-semibold">
-                        {items.length}
-                    </p>
+                    <h4 className="font-semibold lg:w-80">{categories[0].subcategoryName}</h4>
                 </div>
 
                 <p className="flex cursor-pointer items-end text-blue-500 hover:underline">
-                    Show product details
+                    Show category details
                     <ChevronDownIcon className="h-6 w-6" />
                 </p>
             </div>
             <div className="flex flex-col items-end space-y-4">
-                <h4 className="text-xl font-semibold lg:text-2xl">
-                    ${Number(items[0].price) * items.length}
-                </h4>
                 <button
-                    onClick={removeItemFromBasket}
+                    onClick={removeItemFromCategoryBasket}
                     className="text-blue-500 hover:underline"
                 >
                     Remove
@@ -50,4 +45,4 @@ function CheckoutProduct({ id, items }: Props) {
     );
 }
 
-export default CheckoutProduct;
+export default CheckoutCategory;

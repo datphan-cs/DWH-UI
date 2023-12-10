@@ -65,8 +65,8 @@ def readProductFile(filename):
             row = data[i]
             data[i] = {
                 "productId": eval(row[1]),
-                "productName": row[2],
-                "price": eval(row[4]),
+                "productName": row[4],
+                "price": eval(row[3]),
             }
 
     return data

@@ -2,8 +2,7 @@
 import Header from "@/app/components/Header";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
-import Button from "@/app/components/Button";
-import { selectBasketItems, selectBasketTotal } from "@/app/../redux/basketSlice";
+import { selectBasketItems } from "@/app/../redux/basketSlice";
 import CheckoutProduct from "@/app/components/CheckoutProduct";
 import React from "react";
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Pagination, getKeyValue, Chip, Tooltip, } from "@nextui-org/react";

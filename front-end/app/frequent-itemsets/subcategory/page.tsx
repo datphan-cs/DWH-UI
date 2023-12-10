@@ -3,7 +3,7 @@ import Header from "@/app/components/Header";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
 import { selectCategoryBasketItems } from "@/redux/categorySlice";
-import CheckoutProduct from "@/app/components/CheckoutProduct";
+import CheckoutCategory from "@/app/components/CheckoutCategory";
 import React from "react";
 import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Pagination, getKeyValue, Chip } from "@nextui-org/react";
 
@@ -29,7 +29,7 @@ function FrequentCategorySet() {
 
     useEffect(() => {
         const groupedCategories = categories.reduce((results, item) => {
-            (results[item.productId] = results[item.productId] || []).push(item);
+            (results[item.subcategoryId] = results[item.subcategoryId] || []).push(item);
             return results;
         }, {} as { [key: string]: Category[] });
 
@@ -120,13 +120,13 @@ function FrequentCategorySet() {
             <Header />
             <main className="mx-auto max-w-5xl pb-24">
                 <h1 className="px-5 my-4 text-3xl font-semibold lg:text-4xl">
-                    Frequent itemsets
+                    Frequent category sets
                 </h1>
 
                 {categories.length > 0 && (
                     <div className="mx-5 md:mx-8">
-                        {Object.entries(groupedCategoriesInBasket).map(([key, items]) => (
-                            <CheckoutProduct key={key} items={items} id={items[0]} />
+                        {Object.entries(groupedCategoriesInBasket).map(([key, categories]) => (
+                            <CheckoutCategory key={key} categories={categories} id={categories[0]} />
                         ))}
                     </div>
                 )}

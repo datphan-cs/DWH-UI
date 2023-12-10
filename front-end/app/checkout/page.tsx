@@ -1,7 +1,6 @@
 "use client";
 import Head from "next/head";
 import Header from "../components/Header";
-// import { ChevronDownIcon } from "@heroicons/react/24/solid";
 import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import { useSelector } from "react-redux";
