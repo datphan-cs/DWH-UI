@@ -135,7 +135,7 @@ async def get_all_items():
 
 @app.get("/subcategories")
 async def get_all_subcategories():
-    return {"subcategories": subcategories}
+    return subcategories
 
 
 @app.post("/frequent-itemsets/item")
@@ -197,13 +197,13 @@ async def api3():
     return HTMLResponse(content="<h1>HELLO WORLD </h1>", status_code=200)
 
 
-@app.post("/frequent-itemsets/subcategory/")
+@app.post("/frequent-itemsets/subcategory")
 async def api4(subcategoryList: SubcategoryList):
     assoc_rules = []
 
     for row in assoc_rules_subcategory:
         frequent_itemset = row[1] + row[2]
-        assoc_rule = {"Subcategory Set IDs": frequent_itemset, "Confidence": row[3]}
+        assoc_rule = {"SubcategorySetIDs": frequent_itemset, "Confidence": row[3]}
         if subcategoryList.subcategoryList == []:
             assoc_rules.append(assoc_rule)
         elif all(x in frequent_itemset for x in subcategoryList.subcategoryList):
@@ -218,9 +218,10 @@ async def api4(subcategoryList: SubcategoryList):
     else:
         filtered_assoc_rules = assoc_rules.copy()
 
-    for rule in filtered_assoc_rules:
-        rule["Subcategory Set Names"] = subcategoryIdTosubcategoryName(
-            rule["Subcategory Set IDs"]
+    for key, rule in enumerate(filtered_assoc_rules):
+        rule["SubcategorySet"] = subcategoryIdTosubcategoryName(
+            rule["SubcategorySetIDs"]
         )
+        rule["key"] = key
 
-    return {"Subcategory Sets": filtered_assoc_rules}
+    return filtered_assoc_rules

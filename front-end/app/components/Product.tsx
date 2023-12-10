@@ -16,7 +16,7 @@ function Product({ product }: Props) {
     const addItemToBasket = () => {
         dispatch(addToBasket(product));
 
-        toast.success(`${product.name} added to basket`, {
+        toast.success(`${product.productName} added to basket`, {
             position: "bottom-center",
         });
     };

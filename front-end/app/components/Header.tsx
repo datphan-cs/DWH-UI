@@ -6,17 +6,20 @@ import {
     MagnifyingGlassIcon,
     ShoppingBagIcon,
     UserIcon,
-    ChartBarIcon
+    ChartBarIcon,
+    ChartPieIcon
 } from "@heroicons/react/24/outline";
 import { useSelector } from "react-redux";
 import { selectBasketItems } from "@/redux/basketSlice";
-import { signIn, signOut, useSession } from "next-auth/react";
+import { selectCategoryBasketItems } from "@/redux/categorySlice";
 
 function Header() {
     const session = false;
     // const { data: session } = useSession();
     const items = useSelector(selectBasketItems);
+    const categories = useSelector(selectCategoryBasketItems);
 
+    console.log(categories)
     return (
         <header className="sticky top-0 z-30 flex w-full items-center justify-between bg-[#E7ECEE] p-4">
             <div className="flex items-center justify-center md:w-1/5">
@@ -35,7 +38,9 @@ function Header() {
                 <Link href="/products">
                     <div className="headerLink">Product</div>
                 </Link>
-                <a className="headerLink">Explore</a>
+                <Link href="/category">
+                    <div className="headerLink">Category</div>
+                </Link>
                 <a className="headerLink">Support</a>
                 <a className="headerLink">Business</a>
             </div>
@@ -59,6 +64,16 @@ function Header() {
                             </span>
                         )}
                         <ChartBarIcon className="headerIcon" />
+                    </div>
+                </Link>
+                <Link href="/frequent-itemsets/subcategory">
+                    <div className="relative cursor-pointer">
+                        {categories.length > 0 && (
+                            <span className="absolute -right-1 -top-1 z-50 flex h-4 w-4 items-center justify-center rounded-full bg-gradient-to-r from-pink-500 to-violet-500 text-[10px] text-white">
+                                {categories.length}
+                            </span>
+                        )}
+                        <ChartPieIcon className="headerIcon" />
                     </div>
                 </Link>
 
