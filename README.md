@@ -6,7 +6,13 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 First, start at the root of the project, cd into the "front-end" folder then run the commmand:
 
 ```{Bash}
-npm install # npm install --force if there is a dependency problem
+npm install
+npm run dev
+```
+
+If there is a depency problem, run the alternative script:
+```{Bash}
+npm install --force
 npm run dev
 ```
 
