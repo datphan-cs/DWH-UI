@@ -144,7 +144,7 @@ async def api1(itemList: ItemList):
 
     for row in assoc_rules_all:
         frequent_itemset = row[1] + row[2]
-        assoc_rule = {"Itemset IDs": frequent_itemset, "Confidence": row[3]}
+        assoc_rule = {"ItemsetIDs": frequent_itemset, "Confidence": row[3]}
         if itemList.itemList == []:
             assoc_rules.append(assoc_rule)
         elif all(x in frequent_itemset for x in itemList.itemList):
@@ -161,7 +161,7 @@ async def api1(itemList: ItemList):
         filtered_assoc_rules = assoc_rules
 
     for rule in filtered_assoc_rules:
-        rule["Itemset"] = productIdToproductName(rule["Itemset IDs"])
+        rule["Itemset"] = productIdToproductName(rule["ItemsetIDs"])
 
     return filtered_assoc_rules
 

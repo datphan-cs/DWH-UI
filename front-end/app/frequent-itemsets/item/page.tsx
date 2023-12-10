@@ -11,6 +11,10 @@ import { Table, TableHeader, TableColumn, TableBody, TableRow, TableCell, Pagina
 function FrequentItemsets() {
     const columns = [
         {
+            key: "ItemsetIDs",
+            label: "ITEMSET IDs",
+        },
+        {
             key: "Itemset",
             label: "ITEMSET",
         },
@@ -86,6 +90,14 @@ function FrequentItemsets() {
         const cellValue = item[columnKey];
 
         switch (columnKey) {
+            case "ItemsetIDs":
+                return (
+                    <div>
+                        {cellValue.map((item) => (<Chip className="capitalize" size="sm" variant="flat">
+                            {item}
+                        </Chip>))}
+                    </div>
+                );
             case "Itemset":
                 return (
                     <div>
@@ -97,7 +109,7 @@ function FrequentItemsets() {
             case "Confidence":
                 return (
                     <div className="flex flex-col">
-                        {cellValue}
+                        {cellValue.toFixed(4)}
                     </div>
                 );
             default:
