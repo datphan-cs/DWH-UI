@@ -37,7 +37,7 @@ app.add_middleware(
 
 
 def extract_conf(json_data):
-    return json_data["Confidence"]
+    return json_data["Lift"]
 
 
 def readDataFromFile(filename):
@@ -144,7 +144,11 @@ async def api1(itemList: ItemList):
 
     for row in assoc_rules_all:
         frequent_itemset = row[1] + row[2]
-        assoc_rule = {"ItemsetIDs": frequent_itemset, "Confidence": row[3]}
+        assoc_rule = {
+            		"ItemsetIDs Chosen": row[1], 
+                    "ItemsetIDs Suggested": row[2],
+                    "Lift": row[3]
+                    }
         if itemList.itemList == []:
             assoc_rules.append(assoc_rule)
         elif all(x in frequent_itemset for x in itemList.itemList):
@@ -161,7 +165,9 @@ async def api1(itemList: ItemList):
         filtered_assoc_rules = assoc_rules
 
     for rule in filtered_assoc_rules:
-        rule["Itemset"] = productIdToproductName(rule["ItemsetIDs"])
+        rule["Itemset Chosen"] = productIdToproductName(rule["ItemsetIDs Chosen"])
+        rule["Itemset Suggested"] = productIdToproductName(rule["ItemsetIDs Suggested"])
+
 
     return filtered_assoc_rules
 
@@ -176,7 +182,7 @@ async def api2(itemList: ItemList):
             continue
 
         for item in row[2]:
-            assoc_rules.append({"productId": item, "Confidence": row[3]})
+            assoc_rules.append({"productId": item, "Lift": row[3]})
 
     # Descending
     if itemList.sort == 1:
@@ -192,9 +198,9 @@ async def api2(itemList: ItemList):
     return assoc_rules
 
 
-@app.get("/test_html")
-async def api3():
-    return HTMLResponse(content="<h1>HELLO WORLD </h1>", status_code=200)
+# @app.get("/test_html")
+# async def api3():
+#     return HTMLResponse(content="<h1>HELLO WORLD </h1>", status_code=200)
 
 
 @app.post("/frequent-itemsets/subcategory")
@@ -203,7 +209,11 @@ async def api4(subcategoryList: SubcategoryList):
 
     for row in assoc_rules_subcategory:
         frequent_itemset = row[1] + row[2]
-        assoc_rule = {"SubcategorySetIDs": frequent_itemset, "Confidence": row[3]}
+        assoc_rule = {
+            "SubcategorySetIDs Chosen": row[1],
+            "SubcategorySetIDs Suggested": row[2], 
+            "Lift": row[3]
+            }
         if subcategoryList.subcategoryList == []:
             assoc_rules.append(assoc_rule)
         elif all(x in frequent_itemset for x in subcategoryList.subcategoryList):
@@ -219,9 +229,8 @@ async def api4(subcategoryList: SubcategoryList):
         filtered_assoc_rules = assoc_rules.copy()
 
     for key, rule in enumerate(filtered_assoc_rules):
-        rule["SubcategorySet"] = subcategoryIdTosubcategoryName(
-            rule["SubcategorySetIDs"]
-        )
+        rule["SubcategorySet Chosen"] = subcategoryIdTosubcategoryName(rule["SubcategorySetIDs Chosen"])
+        rule["SubcategorySet Suggested"] = subcategoryIdTosubcategoryName(rule["SubcategorySetIDs Suggested"])
         rule["key"] = key
 
     return filtered_assoc_rules
